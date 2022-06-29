@@ -1,0 +1,4 @@
+services:
+  current_location_time.LocationService:
+    class: Drupal\current_location_time\LocationService
+    arguments: ['@date.formatter']

@@ -1,0 +1,7 @@
+current_location_time.form:
+  path: '/admin/current-location-time'
+  defaults:
+    _form: '\Drupal\current_location_time\Form\LocationTimeForm'
+    _title: 'Get your current location and time'
+  requirements:
+    _permission: 'administrator'
